@@ -1,0 +1,2847 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "WalleeTestSdk",
+    "printedName": "WalleeTestSdk",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsoleErrorHandler",
+        "printedName": "ConsoleErrorHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "MissingTokenValue",
+            "printedName": "MissingTokenValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.ConsoleErrorHandler.Type) -> WalleeTestSdk.ConsoleErrorHandler",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleErrorHandler",
+                    "printedName": "WalleeTestSdk.ConsoleErrorHandler",
+                    "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.ConsoleErrorHandler.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsoleErrorHandler",
+                        "printedName": "WalleeTestSdk.ConsoleErrorHandler",
+                        "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO17MissingTokenValueyA2CmF",
+            "mangledName": "$s13WalleeTestSdk19ConsoleErrorHandlerO17MissingTokenValueyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvp",
+            "mangledName": "$s13WalleeTestSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvp",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvg",
+                "mangledName": "$s13WalleeTestSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvg",
+                "moduleName": "WalleeTestSdk",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WalleeTestSdk.ConsoleErrorHandler?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleErrorHandler",
+                    "printedName": "WalleeTestSdk.ConsoleErrorHandler",
+                    "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13WalleeTestSdk19ConsoleErrorHandlerO8rawValueACSgSS_tcfc",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO8rawValueSSvp",
+            "mangledName": "$s13WalleeTestSdk19ConsoleErrorHandlerO8rawValueSSvp",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO8rawValueSSvg",
+                "mangledName": "$s13WalleeTestSdk19ConsoleErrorHandlerO8rawValueSSvg",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13WalleeTestSdk19ConsoleErrorHandlerO",
+        "mangledName": "$s13WalleeTestSdk19ConsoleErrorHandlerO",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalleeTestResultObserver",
+        "printedName": "WalleeTestResultObserver",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "paymentResult",
+            "printedName": "paymentResult(paymentResultMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentResult",
+                "printedName": "WalleeTestSdk.PaymentResult",
+                "usr": "s:13WalleeTestSdk13PaymentResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdk0aB14ResultObserverP07paymentD00fD7MessageyAA07PaymentD0V_tF",
+            "mangledName": "$s13WalleeTestSdk0aB14ResultObserverP07paymentD00fD7MessageyAA07PaymentD0V_tF",
+            "moduleName": "WalleeTestSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : WalleeTestSdk.WalleeTestResultObserver>",
+            "sugared_genericSig": "<Self where Self : WalleeTestSdk.WalleeTestResultObserver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13WalleeTestSdk0aB14ResultObserverP",
+        "mangledName": "$s13WalleeTestSdk0aB14ResultObserverP",
+        "moduleName": "WalleeTestSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThemeEnum",
+        "printedName": "ThemeEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LIGHT",
+            "printedName": "LIGHT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.ThemeEnum.Type) -> WalleeTestSdk.ThemeEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeEnum",
+                    "printedName": "WalleeTestSdk.ThemeEnum",
+                    "usr": "s:13WalleeTestSdk9ThemeEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.ThemeEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeEnum",
+                        "printedName": "WalleeTestSdk.ThemeEnum",
+                        "usr": "s:13WalleeTestSdk9ThemeEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk9ThemeEnumO5LIGHTyA2CmF",
+            "mangledName": "$s13WalleeTestSdk9ThemeEnumO5LIGHTyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "DARK",
+            "printedName": "DARK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.ThemeEnum.Type) -> WalleeTestSdk.ThemeEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeEnum",
+                    "printedName": "WalleeTestSdk.ThemeEnum",
+                    "usr": "s:13WalleeTestSdk9ThemeEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.ThemeEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeEnum",
+                        "printedName": "WalleeTestSdk.ThemeEnum",
+                        "usr": "s:13WalleeTestSdk9ThemeEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk9ThemeEnumO4DARKyA2CmF",
+            "mangledName": "$s13WalleeTestSdk9ThemeEnumO4DARKyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WalleeTestSdk.ThemeEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeEnum",
+                    "printedName": "WalleeTestSdk.ThemeEnum",
+                    "usr": "s:13WalleeTestSdk9ThemeEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13WalleeTestSdk9ThemeEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13WalleeTestSdk9ThemeEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdk9ThemeEnumO8rawValueSSvp",
+            "mangledName": "$s13WalleeTestSdk9ThemeEnumO8rawValueSSvp",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk9ThemeEnumO8rawValueSSvg",
+                "mangledName": "$s13WalleeTestSdk9ThemeEnumO8rawValueSSvg",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13WalleeTestSdk9ThemeEnumO",
+        "mangledName": "$s13WalleeTestSdk9ThemeEnumO",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TwintSDK",
+        "printedName": "TwintSDK",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentResultEnum",
+        "printedName": "PaymentResultEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "CANCELED",
+            "printedName": "CANCELED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.PaymentResultEnum.Type) -> WalleeTestSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleeTestSdk.PaymentResultEnum",
+                        "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk17PaymentResultEnumO8CANCELEDyA2CmF",
+            "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO8CANCELEDyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "FAILED",
+            "printedName": "FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.PaymentResultEnum.Type) -> WalleeTestSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleeTestSdk.PaymentResultEnum",
+                        "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk17PaymentResultEnumO6FAILEDyA2CmF",
+            "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO6FAILEDyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "COMPLETED",
+            "printedName": "COMPLETED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.PaymentResultEnum.Type) -> WalleeTestSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleeTestSdk.PaymentResultEnum",
+                        "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk17PaymentResultEnumO9COMPLETEDyA2CmF",
+            "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO9COMPLETEDyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "TIMEOUT",
+            "printedName": "TIMEOUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.PaymentResultEnum.Type) -> WalleeTestSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleeTestSdk.PaymentResultEnum",
+                        "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk17PaymentResultEnumO7TIMEOUTyA2CmF",
+            "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO7TIMEOUTyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "PENDING",
+            "printedName": "PENDING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.PaymentResultEnum.Type) -> WalleeTestSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleeTestSdk.PaymentResultEnum",
+                        "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk17PaymentResultEnumO7PENDINGyA2CmF",
+            "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO7PENDINGyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WalleeTestSdk.PaymentResultEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13WalleeTestSdk17PaymentResultEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdk17PaymentResultEnumO8rawValueSSvp",
+            "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO8rawValueSSvp",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk17PaymentResultEnumO8rawValueSSvg",
+                "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO8rawValueSSvg",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13WalleeTestSdk17PaymentResultEnumO",
+        "mangledName": "$s13WalleeTestSdk17PaymentResultEnumO",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentResult",
+        "printedName": "PaymentResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentResultEnum",
+                "printedName": "WalleeTestSdk.PaymentResultEnum",
+                "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvp",
+            "mangledName": "$s13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvp",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvg",
+                "mangledName": "$s13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvg",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleeTestSdk.PaymentResultEnum",
+                    "usr": "s:13WalleeTestSdk17PaymentResultEnumO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvs",
+                "mangledName": "$s13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvs",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvM",
+                "mangledName": "$s13WalleeTestSdk13PaymentResultV4codeAA0dE4EnumOvM",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdk13PaymentResultV7messageSSSgvp",
+            "mangledName": "$s13WalleeTestSdk13PaymentResultV7messageSSSgvp",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk13PaymentResultV7messageSSSgvg",
+                "mangledName": "$s13WalleeTestSdk13PaymentResultV7messageSSSgvg",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk13PaymentResultV7messageSSSgvs",
+                "mangledName": "$s13WalleeTestSdk13PaymentResultV7messageSSSgvs",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk13PaymentResultV7messageSSSgvM",
+                "mangledName": "$s13WalleeTestSdk13PaymentResultV7messageSSSgvM",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13WalleeTestSdk13PaymentResultV",
+        "mangledName": "$s13WalleeTestSdk13PaymentResultV",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalleeTestSdk",
+        "printedName": "WalleeTestSdk",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SDK_VERSION",
+            "printedName": "SDK_VERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdkAAC11SDK_VERSIONSSvpZ",
+            "mangledName": "$s13WalleeTestSdkAAC11SDK_VERSIONSSvpZ",
+            "moduleName": "WalleeTestSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdkAAC11SDK_VERSIONSSvgZ",
+                "mangledName": "$s13WalleeTestSdkAAC11SDK_VERSIONSSvgZ",
+                "moduleName": "WalleeTestSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onHandleOpenURL",
+            "printedName": "onHandleOpenURL(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC15onHandleOpenURL3urlSb10Foundation0G0V_tFZ",
+            "mangledName": "$s13WalleeTestSdkAAC15onHandleOpenURL3urlSb10Foundation0G0V_tFZ",
+            "moduleName": "WalleeTestSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventObserver:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalleeTestSdk",
+                "printedName": "WalleeTestSdk.WalleeTestSdk",
+                "usr": "s:13WalleeTestSdkAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WalleeTestResultObserver",
+                "printedName": "any WalleeTestSdk.WalleeTestResultObserver",
+                "usr": "s:13WalleeTestSdk0aB14ResultObserverP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13WalleeTestSdkAAC13eventObserverAbA0ab6ResultE0_p_tcfc",
+            "mangledName": "$s13WalleeTestSdkAAC13eventObserverAbA0ab6ResultE0_p_tcfc",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "launchPayment",
+            "printedName": "launchPayment(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC13launchPayment5tokenySS_tF",
+            "mangledName": "$s13WalleeTestSdkAAC13launchPayment5tokenySS_tF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureApplePay",
+            "printedName": "configureApplePay(merchantId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC17configureApplePay10merchantIdySS_tF",
+            "mangledName": "$s13WalleeTestSdkAAC17configureApplePay10merchantIdySS_tF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureDeepLink",
+            "printedName": "configureDeepLink(deepLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC17configureDeepLink04deepF0ySS_tF",
+            "mangledName": "$s13WalleeTestSdkAAC17configureDeepLink04deepF0ySS_tF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureBaseUrl",
+            "printedName": "configureBaseUrl(baseUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC16configureBaseUrl04baseF0ySSSg_tF",
+            "mangledName": "$s13WalleeTestSdkAAC16configureBaseUrl04baseF0ySSSg_tF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchPayment",
+            "printedName": "launchPayment(token:isSwiftUI:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC13launchPayment5token9isSwiftUIySS_SbtF",
+            "mangledName": "$s13WalleeTestSdkAAC13launchPayment5token9isSwiftUIySS_SbtF",
+            "moduleName": "WalleeTestSdk",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC5closeyyF",
+            "mangledName": "$s13WalleeTestSdkAAC5closeyyF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLightTheme",
+            "printedName": "setLightTheme(light:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableDictionary",
+                "printedName": "Foundation.NSMutableDictionary",
+                "usr": "c:objc(cs)NSMutableDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC13setLightTheme5lightySo19NSMutableDictionaryC_tF",
+            "mangledName": "$s13WalleeTestSdkAAC13setLightTheme5lightySo19NSMutableDictionaryC_tF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAnimation",
+            "printedName": "setAnimation(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationEnum",
+                "printedName": "WalleeTestSdk.AnimationEnum",
+                "usr": "s:13WalleeTestSdk13AnimationEnumO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC12setAnimation4typeyAA0E4EnumO_tF",
+            "mangledName": "$s13WalleeTestSdkAAC12setAnimation4typeyAA0E4EnumO_tF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDarkTheme",
+            "printedName": "setDarkTheme(dark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableDictionary",
+                "printedName": "Foundation.NSMutableDictionary",
+                "usr": "c:objc(cs)NSMutableDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC12setDarkTheme4darkySo19NSMutableDictionaryC_tF",
+            "mangledName": "$s13WalleeTestSdkAAC12setDarkTheme4darkySo19NSMutableDictionaryC_tF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomTheme",
+            "printedName": "setCustomTheme(custom:baseTheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSMutableDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableDictionary",
+                    "printedName": "Foundation.NSMutableDictionary",
+                    "usr": "c:objc(cs)NSMutableDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeEnum",
+                "printedName": "WalleeTestSdk.ThemeEnum",
+                "usr": "s:13WalleeTestSdk9ThemeEnumO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WalleeTestSdkAAC14setCustomTheme6custom04baseF0ySo19NSMutableDictionaryCSg_AA0F4EnumOtF",
+            "mangledName": "$s13WalleeTestSdkAAC14setCustomTheme6custom04baseF0ySo19NSMutableDictionaryCSg_AA0F4EnumOtF",
+            "moduleName": "WalleeTestSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13WalleeTestSdkAAC",
+        "mangledName": "$s13WalleeTestSdkAAC",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleeTestSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimationEnum",
+        "printedName": "AnimationEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "BUBBLE",
+            "printedName": "BUBBLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.AnimationEnum.Type) -> WalleeTestSdk.AnimationEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationEnum",
+                    "printedName": "WalleeTestSdk.AnimationEnum",
+                    "usr": "s:13WalleeTestSdk13AnimationEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.AnimationEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationEnum",
+                        "printedName": "WalleeTestSdk.AnimationEnum",
+                        "usr": "s:13WalleeTestSdk13AnimationEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk13AnimationEnumO6BUBBLEyA2CmF",
+            "mangledName": "$s13WalleeTestSdk13AnimationEnumO6BUBBLEyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "SLIDE",
+            "printedName": "SLIDE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.AnimationEnum.Type) -> WalleeTestSdk.AnimationEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationEnum",
+                    "printedName": "WalleeTestSdk.AnimationEnum",
+                    "usr": "s:13WalleeTestSdk13AnimationEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.AnimationEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationEnum",
+                        "printedName": "WalleeTestSdk.AnimationEnum",
+                        "usr": "s:13WalleeTestSdk13AnimationEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk13AnimationEnumO5SLIDEyA2CmF",
+            "mangledName": "$s13WalleeTestSdk13AnimationEnumO5SLIDEyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "NONE",
+            "printedName": "NONE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleeTestSdk.AnimationEnum.Type) -> WalleeTestSdk.AnimationEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationEnum",
+                    "printedName": "WalleeTestSdk.AnimationEnum",
+                    "usr": "s:13WalleeTestSdk13AnimationEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleeTestSdk.AnimationEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationEnum",
+                        "printedName": "WalleeTestSdk.AnimationEnum",
+                        "usr": "s:13WalleeTestSdk13AnimationEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WalleeTestSdk13AnimationEnumO4NONEyA2CmF",
+            "mangledName": "$s13WalleeTestSdk13AnimationEnumO4NONEyA2CmF",
+            "moduleName": "WalleeTestSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WalleeTestSdk.AnimationEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationEnum",
+                    "printedName": "WalleeTestSdk.AnimationEnum",
+                    "usr": "s:13WalleeTestSdk13AnimationEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13WalleeTestSdk13AnimationEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13WalleeTestSdk13AnimationEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WalleeTestSdk13AnimationEnumO8rawValueSSvp",
+            "mangledName": "$s13WalleeTestSdk13AnimationEnumO8rawValueSSvp",
+            "moduleName": "WalleeTestSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WalleeTestSdk13AnimationEnumO8rawValueSSvg",
+                "mangledName": "$s13WalleeTestSdk13AnimationEnumO8rawValueSSvg",
+                "moduleName": "WalleeTestSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13WalleeTestSdk13AnimationEnumO",
+        "mangledName": "$s13WalleeTestSdk13AnimationEnumO",
+        "moduleName": "WalleeTestSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/RNScreenController.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 47,
+      "value": "\"walleetest-payment-sdk-close-app-notification\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/RNScreenController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/RNScreenController.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/RNScreenController.swift",
+      "kind": "Dictionary",
+      "offset": 359,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 106,
+      "length": 25,
+      "value": "\"Token can not be empty!\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 69,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 15,
+      "value": "\"twint-payment\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 2,
+      "value": "39"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 14,
+      "value": "\"twint_result\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 27,
+      "value": "\"TWINT_EVENT_LISTENER_NAME\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 14,
+      "value": "\"TW_B_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 12,
+      "value": "\"TW_B_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 24,
+      "value": "\"TW_B_APP_NOT_INSTALLED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 819,
+      "length": 26,
+      "value": "\"TW_T_CODE_FORMAT_INVALID\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "StringLiteral",
+      "offset": 880,
+      "length": 27,
+      "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 11,
+      "value": "\"COMPLETED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 9,
+      "value": "\"TIMEOUT\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 9,
+      "value": "\"PENDING\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/LoggerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 9,
+      "value": "\"threeDS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ApplePay.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 16,
+      "value": "\"applePayResult\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ApplePay.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 30,
+      "value": "\"APPLEPAY_EVENT_LISTENER_NAME\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 3,
+      "value": "\"U\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 3,
+      "value": "\"A\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 348,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 601,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2163,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4731,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ResizeScreen\/ResizeScreenModule.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 36,
+      "value": "\"payment-sdk-resize-screen_observer\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 308,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 366,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 372,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 439,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 495,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 554,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 600,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 26,
+      "value": "\"wallee.com.WalleeTestSdk\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 10,
+      "value": "\"RNScreen\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 815,
+      "length": 11,
+      "value": "\"rn-screen\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/WalleeTestSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/WalleeTestSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/WalleeTestSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 7,
+      "value": "\"3.1.0\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Helpers\/Theme.swift",
+      "kind": "BooleanLiteral",
+      "offset": 429,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 17,
+      "value": "\"THREEDS_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 15,
+      "value": "\"THREEDS_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 19,
+      "value": "\"THREEDS_CANCELLED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 17,
+      "value": "\"THREEDS_TIMEOUT\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 24,
+      "value": "\"THREEDS_PROTOCOL_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 23,
+      "value": "\"THREEDS_RUNTIME_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 25,
+      "value": "\"THREEDS_INIT_SUCCESSFUL\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 16,
+      "value": "\"threeds_result\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 29,
+      "value": "\"THREEDS_EVENT_LISTENER_NAME\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 23,
+      "value": "\"THREEDS_ERROR_MESSAGE\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 926,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Enums\/AnimationEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 74,
+      "length": 8,
+      "value": "\"bubble\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Enums\/AnimationEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 100,
+      "length": 7,
+      "value": "\"slide\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Enums\/AnimationEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 6,
+      "value": "\"none\""
+    }
+  ]
+}
