@@ -2735,8 +2735,8 @@
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/WalleeTestSdk.swift",
       "kind": "StringLiteral",
       "offset": 298,
-      "length": 7,
-      "value": "\"9.5.0\""
+      "length": 8,
+      "value": "\"10.0.0\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/WalleeTest\/WalleeTestSdk\/Helpers\/Theme.swift",
